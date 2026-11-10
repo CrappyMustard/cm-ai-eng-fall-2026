@@ -12,3 +12,17 @@ Give me a way to add a new row to pandas and send that said row to SQLite3, embe
 The assistant gave back a relatively simple function which created a new row and sent that row to the database of both pandas and SQLite.
 ## What I Verified / Fixed
 I have to tweak a few points of the function to make it fit the overall program and its functions better.
+# Log 3
+## What I Asked
+Generate me a simple method that'll supply the user with their current improvements and struggles in a neat format.
+## What It Gave Me
+The assistant gave me a function that tells the user their current improvements and struggles.
+## What I Verified / Fixed
+I needed to give some better specifications when it came to what the function needed to pull from.
+# Log 4
+## What I Asked
+Give me a way to save the current dataframe to the existing .csv.
+## What It Gave Me
+The assistant outputted a pandas function that would append the dataframe to the .csv.
+## What I Verified / Fixed
+I had to change the mode from "a" to "w+" in order to fix an error involving saving.
